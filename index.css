@@ -1,0 +1,550 @@
+
+
+ 
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&family=Fira+Sans:wght@500&family=Italianno&family=Open+Sans&family=Rajdhani&family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+
+
+
+  *{
+      padding: 0;
+    
+      margin: 0;
+      scroll-behavior: smooth;
+      
+  
+  }body{
+    background: rgb(248, 248, 248);
+  }
+ 
+  .logo h1{
+      color: rgb(0, 0, 0);
+      margin: 15px 0;
+      position: relative;
+      left: -1.9rem;
+      font-size: 45px;
+      font-family: 'Italianno';
+  }
+  .logo{
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      height: 75px;
+      box-shadow: 0px 6px 11px -9px rgb(80, 75, 80);
+      top: 10px  ;
+      z-index: 111;
+  }
+  .logo img{
+    width: 9.5rem;
+    margin: 9px 3px;
+    height: 4rem;
+}
+  
+  nav{
+      float: right;
+      list-style: none;
+      /* backgrosund: linear-gradient(to right bottom ,#f57f1f,hsla(285, 93%, 47%, 0.956) );; */
+      color: rgb(0, 0, 0);
+      background-color: white;
+      width:18rem;
+      height: 100%;
+      position: fixed;
+      top: 3rem;
+      box-shadow: 0px 10px 11px -3px rgba(48,44,48,1);
+      right: 0;
+      margin: 1.7rem 0em;
+      display: none;
+      transition: all ease-in ;
+    
+  
+  
+  }
+  .ico{
+      margin: 2rem 1.6rem;
+      font-size: 25px;
+      color: rgb(0, 0, 0);
+  }
+  .visible{
+      display: block;
+      z-index: 99;
+  }
+  
+  
+
+  .strip{
+    width: 100%;
+  z-index: 111;
+    height: 1rem;
+    position: fixed;
+    top: 0rem;
+    background: linear-gradient(to right ,#557efa,hsl(199, 100%, 50%) );;
+}
+  .navbar{
+      margin: 4rem 1.5rem;
+      
+      display: flex;
+      flex-direction: column;
+    list-style: none;
+    font-size: 25px;
+        
+  }
+  .navbar li{
+      margin: 1rem ;
+      letter-spacing: 1px;
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+  }.navbar li a{
+text-decoration: none;
+color: rgb(30, 30, 31);
+  }
+  .social ul{
+      width: 12rem;
+      list-style: none;
+      color: rgb(0, 0, 0);
+      margin: 8rem 2rem;
+      display: flex;
+      justify-content: space-around;
+      font-size: 30px;
+  }.social ul a{
+    color: #557efa;
+  }
+  #fac img{
+    width: 100%;
+    height: 25rem;
+  }
+  /* com. profile section */
+  .card{
+    margin: 2rem 1rem;
+  
+  
+  }
+  .cpro{
+   
+width: 95%;
+    border:9px solid transparent;
+  border-radius: 25px;
+  background-color: rgb(102, 136, 247);
+   
+  }  .cpro h1{
+    text-align: center;
+    margin: 1rem;
+    font-size: 35px;
+    font-family: 'Belanosima', sans-serif;
+
+  }.cpro  img{
+    width: 90%;
+    height: 40vh;
+    /* box-shadow: 0px 2px 10px 10px rgb(55, 139, 207); */
+    margin: 0 1rem;
+    border-radius: 25px;
+  }
+  .cpro p{
+    width:90%;
+  font-size: 20px;
+  font-weight: 400;
+    margin: 1rem 1rem;
+    line-height: 1.2;
+    font-family: 'Belanosima', sans-serif;
+
+    font-weight: 500;
+    text-align: left;
+  }
+  /* profduct */
+.card2{
+    margin: 2rem;
+    
+
+}
+.list{
+   
+    background-color: rgb(102, 136, 247);
+    margin: 2rem 1rem;
+   border-radius: 25px;
+
+}.list  h1{
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    margin: 2rem 2rem;
+    font-size: 35px;
+}.list  img{
+    width: 90%;
+    height: 40vh;
+   background-color: white;
+    margin: 0 1.1rem;
+    border-radius: 25px;
+  }
+.list li{
+    width:90%;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+      margin: 1rem 1rem;
+      line-height: 1.2;
+      font-family: 'Belanosima', sans-serif;
+   
+      text-align: left;
+}
+.list h2{
+    font-size: 28px;
+    text-align: center;
+    margin: 1rem;
+}
+.page{
+    display: flex;
+/*     
+    margin: 1rem; */
+    flex-direction: column;
+ 
+    background-color: rgb(102, 136, 247);
+    margin: 2rem 1rem;
+   border-radius: 25px;
+}
+
+.page img{
+    width: 80%;
+    margin:0.6rem;
+    height: 7rem;
+    border-radius: 10px;
+}
+.page ul{
+    list-style: none;
+       line-height: 1.2;
+      font-family: 'Belanosima', sans-serif;
+      color: rgb(0, 0, 0);
+    
+    
+}
+.img{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+
+}
+.cont p{
+    text-align: left;
+    margin: 1rem;
+    font-size: 17px;
+    
+    line-height: 1.2;
+    font-family: 'Belanosima', sans-serif;
+
+}.cont h1{
+    text-align: center;
+    margin: 1rem;
+    font-size: 25px;
+}
+.img2{
+    display: flex;
+    justify-content: space-between;
+}
+.img2 img{
+    width: 28%;
+    margin:0.6rem;
+    height: 7rem;
+    border-radius: 10px;
+}
+.mabout{
+
+    background-color: rgb(102, 136, 247);
+    margin: 2rem 1rem;
+   border-radius: 25px;
+
+}
+h2{
+    margin: 1rem;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+.dust li{
+    list-style: none;
+    text-align: left;
+    line-height: 1.2;
+    font-family: 'Belanosima', sans-serif;
+  
+    
+margin: 1rem 1em;
+}
+/* one prodect */
+
+.one ul{
+
+    background-color: rgb(102, 136, 247);
+    margin: 2rem 1rem;
+   border-radius: 25px;
+    list-style: none;
+  
+    text-align: center;
+    padding: 1rem;
+
+
+}.one ul li{
+    font-family: 'Belanosima', sans-serif;
+    margin: 1rem;
+}
+.one ul li img{
+    width: 15rem;
+    border-radius: 10px;
+    height: 15rem;
+    margin: 2rem;
+}
+/* more products */
+
+.other{
+   
+    background-color: rgb(102, 136, 247);
+    margin: 2rem 1rem;
+   border-radius: 25px;
+}
+.other h1{
+    text-align: center;
+}
+.other ul{
+    margin:  2rem 1rem;
+    display: flex;
+    list-style: none ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.other ul li img{
+    width: 8.5rem;
+    border-radius: 10px;
+
+    height: 10rem;
+}
+/* cust */
+.customer ul{
+    background-color: rgb(102, 136, 247);
+    margin: 2rem 1rem;
+   border-radius: 25px;
+   font-family: 'Belanosima', sans-serif;
+    list-style: none;
+    font-size: 25px;
+    height: 140vh;
+
+}
+.customer ul li{
+    margin: 1rem;
+    height: 8vh;
+    border-radius: 30px;
+    background: linear-gradient(to left ,#cf34ee,hsl(230, 100%, 50%) );
+    width: 90%;
+   
+    
+    text-align: center;
+ 
+
+}
+@media screen and (min-width:645px){
+
+    .cpro img{
+       margin: 1rem 5rem;
+        width: 70%;
+        height: 30rem;
+    }
+    .list img{
+        margin: 1rem 5rem;
+        width: 70%;
+        height: 30rem;
+    }
+    .page img{
+        width: 30vh;
+        height: 25vh;
+    }
+    .img2 img {
+        width: 30vh;
+        height: 25vh;
+    }
+}
+@media screen and (min-width:1245px) {
+    
+    .ico{
+        display: none;
+
+    }
+    nav{
+        box-shadow: none;
+       
+        transition: none;
+        display: block;
+        height: 75px;
+       width: 90vh;
+        background: none;
+        top: -90px;
+     margin-left: 30rem;
+        z-index: 1111;
+
+
+    }
+   
+ 
+    .navbar{
+        flex-direction: row;
+        top: 0;
+        font-size: 25px;
+        margin-top: 4.5rem;
+    }
+    .navbar li{
+        padding: 10px;
+    }
+    .social ul{
+        flex-direction: column;
+        float: right;
+        position: fixed;
+        margin:8rem 38rem;
+        background: solid;
+        background-color: white;
+        border-radius: 20px;
+        height: 35vh;
+        box-shadow: 2px 0px 6px 6px rgb(212, 210, 212);
+        font-size: 30px;
+        
+        
+    }.social ul li{
+        margin: 1rem ;
+
+    }.social a{
+        color: rgb(62, 106, 251);
+
+    }
+
+    #fac img{
+        margin-left: 10rem;
+        width: 80%;
+        height: 40rem;
+    }
+    
+    .cpro{
+        position: relative;
+        top: 0rem;
+        height:95vh;
+        display: flex ;
+        width: 92%;
+        flex-direction: column;
+        margin-left: 1.5rem;
+    }
+    .head{
+        display: flex;
+    }
+    .cpro img{
+        width: 30%;
+        height: 30rem;
+    }
+    .list {
+        position: relative;
+        top: 7rem;
+        display: flex;
+        margin: 2.5rem;
+        width: 92%;
+        flex-direction: column;
+        height:90vh;
+    }
+    .head3{
+        display: flex;
+    }
+    .list img{
+        width: 30%;
+        height: 30rem;
+    }
+    .head2 li{
+        padding: 0.5rem;
+    }
+    .list h2{
+        font-size:45px ;
+    }
+    .cont h1{
+        font-size: 45px;
+    }  
+    
+    .cont p{
+        font-size: 25px;
+        margin: 2rem;
+
+    }
+    .page {
+        margin: 2rem;
+        width: 92%;
+        position: relative;
+        top: 7rem;
+    }
+    .page img{
+        width: 50vh;
+        height: 50vh;
+    }
+    .mabout{
+        height: 150vh;
+        width: 92%;
+        margin: 2rem;
+        width: 92%;
+        position: relative;
+        top: 7rem;
+    }
+    .dust li h2,h3{
+        font-size: 45px;
+    }
+    .dust li{
+        font-size: 25px;
+    }
+    .img2 img{
+        margin-top: 2rem;
+        width: 50vh;
+        height: 50vh;
+    }
+    h2{
+        font-size: 45px;
+    }
+    .one ul {
+        font-size: 25px;
+    }
+    .other{
+        height: 100vh;
+        position: relative;
+        top: 7rem;
+        width: 92%;
+    }.other ul li img{
+        width: 40vh;
+        height: 40vh;
+        margin: 1rem;
+    }
+    .one{
+        margin: 1rem;
+        position: relative;
+        top: 7rem;
+        width: 94.2%;
+    }
+    .other{
+        margin: 2rem;
+        width: 92%;
+
+    }
+    .customer{
+        margin: 1rem;
+      
+       
+    }
+    .customer ul{
+    height: 120vh;
+    top: 7rem;
+    width: 93.8%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    }
+    .customer ul li{
+        width: 50vh;
+        border-radius: 30px;
+   ;
+        
+    }
+    .lm{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+}
+
